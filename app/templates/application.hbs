@@ -1,0 +1,19 @@
+<div class='navbar navbar-default'>
+        <div class='container'>
+            <a href='#' class='navbar-brand'><img src='assets/images/logo.png' alt='logo' height='34' width='224' /></a>
+            <ul class='nav navbar-nav navbar-right'>
+              {{#link-to 'initial' tagName='li' class='navbar-brand'}}Homepage{{/link-to}}
+              {{#link-to 'todos' tagName='li' class='navbar-brand'}}Todos{{/link-to}}
+              {{#link-to 'about' tagName='li' class='navbar-brand'}}About{{/link-to}}
+              {{#link-to 'credits' tagName='li' class='navbar-brand'}}Credits{{/link-to}}
+            </ul>
+        </div>
+    </div>
+    <div class='container'>
+      {{outlet}}
+    </div>
+    <footer class='container'>
+        <hr />
+        <p class='pull-left'>&copy; 2013 The Flint &amp; Flame</p>
+        <p class='pull-right'><a href='#/credits'>Credits</a></p>
+    </footer>
