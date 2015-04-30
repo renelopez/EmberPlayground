@@ -14,6 +14,8 @@
     <file url="file://$PROJECT_DIR$/app/templates/contacts/index.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/credits.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/initial.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/products.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/products/index.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/todos.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/environment.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tests/unit/routes/initial-test.js" charset="UTF-8" />
