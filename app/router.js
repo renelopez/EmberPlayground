@@ -10,7 +10,7 @@ export default Router.map(function() {
   this.resource('credits', function() {});
   this.resource('initial', function() {});
   this.resource('products', {path: '/products'}, function () {
-    return this.resource('product', {path: '/:title'});
+    return this.resource('product', {path: '/:product_id'});
   });
 
   this.resource('contacts', {path: '/contacts'}, function () {
