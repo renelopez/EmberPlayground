@@ -1,14 +1,15 @@
 import DS from 'ember-data';
 
-var Todo = DS.Model.extend({
+var Product = DS.Model.extend({
   title: DS.attr('string'),
   price: DS.attr('number'),
   description: DS.attr('string'),
   isOnSale: DS.attr('boolean'),
-  image: DS.attr('string')
+  image: DS.attr('string'),
+  reviews:DS.hasMany('review',{async:true})
 });
 
-Todo.reopenClass({
+Product.reopenClass({
   FIXTURES: [
     {
       id: 1,
@@ -16,7 +17,8 @@ Todo.reopenClass({
       price: 99,
       description: 'Flint is a hard, sedimentary cryptocrystalline form of the mineral quartz, categorized as a variety of chert.',
       isOnSale: true,
-      image: 'assets/images/flint.png'
+      image: 'assets/images/flint.png',
+      reviews:[100,101]
     },
     {
       id: 2,
@@ -29,5 +31,5 @@ Todo.reopenClass({
   ]
 });
 
-export default Todo;
+export default Product;
 
