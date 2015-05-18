@@ -1,0 +1,10 @@
+<h3>Reviews</h3>
+<ul>
+  {{#each review in model}}
+      <li>{{review.text}}</li>
+  {{else}}
+      <li><p class="text-muted">
+          <em>No reviews yet.Be the first to write one!</em>
+      </p></li>
+  {{/each}}
+</ul>

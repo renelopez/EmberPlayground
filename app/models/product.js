@@ -26,7 +26,8 @@ Product.reopenClass({
       price: 249,
       description: 'Easily combustible small sticks or twigs used for starting a fire.',
       isOnSale: false,
-      image: 'assets/images/kindling.png'
+      image: 'assets/images/kindling.png',
+      reviews: []
     }
   ]
 });

@@ -3,4 +3,7 @@
 
 <p><img {{bind-attr src='logo'}} alt="logo" /></p>
 
+{{#each product in onSale}}
+  {{product-details product=product classNames="col-sm-4"}}
+{{/each}}
 <p>{{time}}</p>

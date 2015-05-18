@@ -3,25 +3,40 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Brocfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/components/product-details.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/controllers/contacts/index.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/controllers/initial.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/product.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/product.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/products.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/reviews.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/reviews.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/initial.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/product.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/review.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/contact.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/contacts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/initial.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/product.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/products.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/products/onsale.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/styles/app.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/components/product-details.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/contact.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/contacts.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/contacts/index.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/credits.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/initial.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/product.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/products-onsale.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/products.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/products/index.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/products/onsale.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/reviews.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/todos.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/product.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/environment.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tests/unit/routes/initial-test.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tests/unit/routes/product-test.js" charset="UTF-8" />

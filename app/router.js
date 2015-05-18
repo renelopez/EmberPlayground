@@ -9,11 +9,13 @@ export default Router.map(function() {
   this.resource('todos', function() {});
   this.resource('credits', function() {});
   this.resource('initial', function() {});
-  this.resource('products', {path: '/products'}, function () {
-    return this.resource('product', {path: '/:product_id'});
+  this.resource('products', function () {
+    this.resource('product', {path: '/:product_id'});
+    this.route('onsale');
   });
 
   this.resource('contacts', {path: '/contacts'}, function () {
     return this.resource('contact', { path: '/:name' });
   });
+
 });

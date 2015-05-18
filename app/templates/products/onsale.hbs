@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+    <h1>Products on Sale</h1>
+  {{#each product in model}}
+      <ul>
+        {{product-details product=product tagName='li' classNames="row"}}
+      </ul>
+  {{/each}}
+</ul>
